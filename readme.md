@@ -3,7 +3,9 @@
 # http-server
 
 An HTTP server is a software application that serves web content to clients (typically web browsers) over the Hypertext Transfer Protocol (HTTP).
-On current version only focus on http get and http POST.
+This project is creating an http server in Python from scratch. Basically, an http is a protocol that sits on top of a TCP connection.
+It's better that all of you understand the concept of the OSI 7 layer, at least from layer 4 until layer 7. Usually,  each operating system will provide a TCP socket connection by default, and then we only need a little tweaking to build an HTTP connection on top of the TCP connection.
+On this current version is only focus on http method get and http method POST.
 
 ## Set up env
 
