@@ -28,3 +28,7 @@ http-server
 
 ## Run manuaally from file
 - open terminal and go to /src/server directory then issue this command : python sever_http.py
+
+## Testing example :
+curl -X POST http://localhost:8181      -H "Content-Type: application/json"      -d '{"key1": "value1", "key2": "value2"}'
+curl -X GET http://localhost:8181
