@@ -18,8 +18,6 @@ On this current version is only focus on http method get and http method POST.
 ## update new library on requirement.txt
 - pip freeze > requirements.txt
 
-for detail setup : https://docs.google.com/document/d/1HgP4rSnfkzfIbMdA9218JagS7Ey86ZgnAi9vmALFRWg/edit?usp=sharing
-
 ## Installation
 
 You can build and install http-server-app by issuing this command: 
